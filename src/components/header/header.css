@@ -1,0 +1,19 @@
+.art-gallery_left-split {
+  background: black;
+  color: white;
+  width: 450px;
+  height: 799px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.art-gallery_right-split {
+  color: black;
+  display: flex;
+  width: 540px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
