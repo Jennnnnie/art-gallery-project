@@ -11,12 +11,12 @@ const Header = () => {
             <p>MODERN ART GALLERY</p>
           </div>
           <div className="art-gallery_hero-image">
-            <p>MODERN ART GALLERY</p>
             <img
               src={Hero}
               alt="hero-image"
               className="art-gallery_hero-image"
             />
+            <p>MODERN ART GALLERY</p>
           </div>
           <div className="art-gallery_white-background">
             <p>

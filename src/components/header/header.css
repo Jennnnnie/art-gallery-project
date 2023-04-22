@@ -16,13 +16,13 @@
 .art-gallery_black-background p {
   position: absolute;
   height: 176px;
-  left: 14%;
-  right: 50%;
+  left: 12.94%;
+  right: 46.75%;
   top: calc(50% - 176px / 2 - 122px);
   font-family: "Big Shoulders Display";
   font-style: normal;
   font-weight: 900;
-  font-size: 100px;
+  font-size: 96px;
   line-height: 88px;
   text-transform: uppercase;
   color: white;
@@ -73,7 +73,6 @@
   left: 65%;
   right: 0%;
   top: calc(50% - 160px / 2 - 130px);
-  color: black;
 }
 
 .art-gallery_button {
