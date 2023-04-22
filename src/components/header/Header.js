@@ -7,8 +7,11 @@ const Header = () => {
     <>
       <div className="art-gallery_section">
         <div className="art-gallery_container">
-          <div className="art-gallery_black-background"></div>
+          <div className="art-gallery_black-background">
+            <p>MODERN ART GALLERY</p>
+          </div>
           <div className="art-gallery_hero-image">
+            <p>MODERN ART GALLERY</p>
             <img
               src={Hero}
               alt="hero-image"
@@ -23,7 +26,7 @@ const Header = () => {
             </p>
             <div className="art-gallery_buttons"></div>
             <button className="art-gallery_button">OUR LOCATION</button>
-            <button className="art-gallery_arrow-button"></button>
+            <button className="art-gallery_arrow-button">&gt;</button>
           </div>
         </div>
       </div>
