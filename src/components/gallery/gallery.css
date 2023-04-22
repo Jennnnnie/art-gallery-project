@@ -1,0 +1,99 @@
+.art-gallery_gallery-container {
+  position: absolute;
+  width: 1110px;
+  height: 1150px;
+  left: 165px;
+  top: -100px;
+}
+
+.art-gallery_gallery-images {
+  position: absolute;
+  width: 350px;
+  height: 280px;
+  left: 60px;
+  top: 1040px;
+}
+
+.art-gallery_gallery-images h1 {
+  position: absolute;
+  height: 120px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 120px / 2 - 80px);
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.art-gallery_gallery-images p {
+  position: absolute;
+  height: 128px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 128px / 2 + 76px);
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #444444;
+}
+
+.img1 {
+  position: absolute;
+  width: 635px;
+  height: 400px;
+  left: 480px;
+}
+
+.img2 {
+  position: absolute;
+  width: 635px;
+  height: 720px;
+  top: 420px;
+}
+
+.img3 {
+  position: absolute;
+  width: 445px;
+  height: 313px;
+  left: 670px;
+  top: 420px;
+}
+
+.art-gallery_gallery-information {
+  position: absolute;
+  width: 445px;
+  height: 377px;
+  left: 670px;
+  top: 760px;
+  background: black;
+}
+
+.art-gallery_gallery-information h1 {
+  position: absolute;
+  height: 120px;
+  top: 40px;
+  right: 60px;
+  left: 60px;
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.art-gallery_gallery-information p {
+  position: absolute;
+  height: 96px;
+  right: 60px;
+  left: 60px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: white;
+}
