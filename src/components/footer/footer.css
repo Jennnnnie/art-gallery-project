@@ -43,4 +43,5 @@
 
 .art-gallery_footer-icons:hover {
   fill: #d5966c;
+  cursor: pointer;
 }
