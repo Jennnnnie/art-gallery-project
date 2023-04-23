@@ -42,6 +42,18 @@
 }
 
 .art-gallery_footer-icons:hover {
-  fill: #d5966c;
   cursor: pointer;
+}
+
+.facebook-icon:hover {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
+    hue-rotate(337deg) brightness(86%) contrast(92%);
+}
+.instagram-icon:hover {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
+    hue-rotate(337deg) brightness(86%) contrast(92%);
+}
+.twitter-icon:hover {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
+    hue-rotate(337deg) brightness(86%) contrast(92%);
 }

@@ -14,9 +14,17 @@ const Footer = () => {
               a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
             </p>
             <div className="art-gallery_footer-icons">
-              <img src={Facebook} alt="facebook-icon" />
-              <img src={Instagram} alt="instagram-icon" />
-              <img src={Twitter} alt="twitter-icon" />
+              <img
+                src={Facebook}
+                alt="facebook-icon"
+                className="facebook-icon"
+              />
+              <img
+                src={Instagram}
+                alt="instagram-icon"
+                className="instagram-icon"
+              />
+              <img src={Twitter} alt="twitter-icon" className="twitter-icon" />
             </div>
           </div>
         </div>

@@ -2,7 +2,15 @@ import React from "react";
 import { Hero, ArrowR } from "./imports";
 import "./header.css";
 
+import { Navigate } from "react-router-dom";
+
 const Header = () => {
+  const [goToLocation, setGoToLocation] = React.useState(false);
+
+  if (goToLocation) {
+    return <Navigate to="/location" />;
+  }
+
   return (
     <>
       <div className="art-gallery_section">
@@ -26,8 +34,11 @@ const Header = () => {
               us and find out.
             </p>
             <div className="art-gallery_buttons"></div>
+            <Navigate to="/location" />
             <button
-              type="button"
+              onClick={() => {
+                setGoToLocation(true);
+              }}
               className="art-gallery_button"
               target="_blank"
               rel="noreferrer"
