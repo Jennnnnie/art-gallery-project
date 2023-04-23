@@ -1,0 +1,46 @@
+.art-gallery_footer-container {
+  position: absolute;
+  width: 1440px;
+  height: 244px;
+  top: 2310px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.art-gallery_footer-information {
+  display: flex;
+  flex-direction: row;
+  width: 1446.5px;
+  height: 244px;
+  color: white;
+  margin: 70px 100px 0px 100px;
+  gap: 60px;
+}
+
+.art-gallery_footer-information h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+
+.art-gallery_footer-information p {
+  height: 84px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 20px 100px 20px 200px;
+}
+
+.art-gallery_footer-icons {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+  gap: 20px;
+}
+
+.art-gallery_footer-icons:hover {
+  fill: #d5966c;
+}

@@ -16,13 +16,12 @@
 .art-gallery_black-background p {
   position: absolute;
   height: 176px;
-  left: 12.94%;
+  left: 273px;
   right: 46.75%;
   top: calc(50% - 176px / 2 - 122px);
-  font-family: "Big Shoulders Display";
-  font-style: normal;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 100px;
   line-height: 88px;
   text-transform: uppercase;
   color: white;
@@ -42,16 +41,16 @@
 .art-gallery_hero-image p {
   position: absolute;
   height: 176px;
-  left: 12.94%;
-  right: 46.75%;
-  top: calc(50% - 176px / 2 - 122px);
-  font-family: "Big Shoulders Display";
+  left: -260px;
+  right: -50.89%;
+  top: 165px;
+  font-family: "Big Shoulders Display", cursive;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 88px;
   text-transform: uppercase;
-  color: #151515;
+  color: black;
 }
 
 .art-gallery_white-background {
@@ -65,13 +64,12 @@
 .art-gallery_white-background p {
   position: absolute;
   font-family: "Outfit";
-  font-style: bold;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 32px;
   height: 160px;
   left: 65%;
-  right: 0%;
+  right: 200px;
   top: calc(50% - 160px / 2 - 130px);
 }
 
@@ -91,7 +89,7 @@
   height: 72px;
 }
 
-.art-gallery_arrow-button {
+.art-gallery_right-arrow-button {
   background: #d5966c;
   position: absolute;
   width: 56px;

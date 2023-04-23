@@ -17,10 +17,9 @@
 .art-gallery_gallery-images h1 {
   position: absolute;
   height: 120px;
-  left: 0%;
-  right: 0%;
+  right: 80px;
   top: calc(50% - 120px / 2 - 80px);
-  font-family: "Big Shoulders Display";
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 900;
   font-size: 60px;
   line-height: 60px;
@@ -31,8 +30,7 @@
 .art-gallery_gallery-images p {
   position: absolute;
   height: 128px;
-  left: 0%;
-  right: 0%;
+  right: 80px;
   top: calc(50% - 128px / 2 + 76px);
   font-family: "Outfit";
   font-weight: 300;
@@ -78,7 +76,7 @@
   top: 40px;
   right: 60px;
   left: 60px;
-  font-family: "Big Shoulders Display";
+  font-family: "Big Shoulders Display", cursive;
   font-weight: 900;
   font-size: 60px;
   line-height: 60px;

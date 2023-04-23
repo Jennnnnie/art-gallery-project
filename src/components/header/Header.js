@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero } from "./imports";
+import { Hero, ArrowR } from "./imports";
 import "./header.css";
 
 const Header = () => {
@@ -8,7 +8,9 @@ const Header = () => {
       <div className="art-gallery_section">
         <div className="art-gallery_container">
           <div className="art-gallery_black-background">
-            <p>MODERN ART GALLERY</p>
+            <p>
+              MODERN <br /> ART GALLERY
+            </p>
           </div>
           <div className="art-gallery_hero-image">
             <img
@@ -16,7 +18,9 @@ const Header = () => {
               alt="hero-image"
               className="art-gallery_hero-image"
             />
-            <p>MODERN ART GALLERY</p>
+            <p>
+              MODERN <br /> ART GALLERY
+            </p>
           </div>
           <div className="art-gallery_white-background">
             <p>
@@ -26,7 +30,9 @@ const Header = () => {
             </p>
             <div className="art-gallery_buttons"></div>
             <button className="art-gallery_button">OUR LOCATION</button>
-            <button className="art-gallery_arrow-button">&gt;</button>
+            <button className="art-gallery_right-arrow-button">
+              <img src={ArrowR} alt="right-arrow" />
+            </button>
           </div>
         </div>
       </div>
