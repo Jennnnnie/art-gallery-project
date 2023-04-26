@@ -26,7 +26,6 @@
 .art-gallery_footer-information p {
   height: 84px;
   font-family: "Outfit";
-  font-style: normal;
   font-weight: 300;
   font-size: 18px;
   margin: 20px 100px 20px 200px;
@@ -56,4 +55,13 @@
 .twitter-icon:hover {
   filter: brightness(0) saturate(100%) invert(99%) sepia(4%) saturate(365%)
     hue-rotate(217deg) brightness(118%) contrast(100%);
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media (min-width: 920px) and (max-width: 1200px) {
 }
