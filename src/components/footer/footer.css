@@ -46,14 +46,14 @@
 }
 
 .facebook-icon:hover {
-  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
-    hue-rotate(337deg) brightness(86%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(4%) saturate(365%)
+    hue-rotate(217deg) brightness(118%) contrast(100%);
 }
 .instagram-icon:hover {
-  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
-    hue-rotate(337deg) brightness(86%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(4%) saturate(365%)
+    hue-rotate(217deg) brightness(118%) contrast(100%);
 }
 .twitter-icon:hover {
-  filter: brightness(0) saturate(100%) invert(72%) sepia(20%) saturate(919%)
-    hue-rotate(337deg) brightness(86%) contrast(92%);
+  filter: brightness(0) saturate(100%) invert(99%) sepia(4%) saturate(365%)
+    hue-rotate(217deg) brightness(118%) contrast(100%);
 }

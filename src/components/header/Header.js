@@ -2,30 +2,22 @@ import React from "react";
 import { Hero, ArrowR } from "./imports";
 import "./header.css";
 
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const [goToLocation, setGoToLocation] = React.useState(false);
-
-  if (goToLocation) {
-    return <Navigate to="/location" />;
-  }
+  const navigate = useNavigate();
 
   return (
     <>
-      <div className="art-gallery_section">
-        <div className="art-gallery_container">
+      <div className="art-gallery_header section">
+        <div className="art-gallery_header-container">
           <div className="art-gallery_black-background">
             <p>
               MODERN <br /> ART GALLERY
             </p>
           </div>
-          <div className="art-gallery_hero-image">
-            <img
-              src={Hero}
-              alt="hero-image"
-              className="art-gallery_hero-image"
-            />
+          <div className="art-gallery_header-hero-image">
+            <img src={Hero} alt="hero-image" />
           </div>
           <div className="art-gallery_white-background">
             <p>
@@ -33,15 +25,11 @@ const Header = () => {
               from a spark of inspiration. Will these pieces inspire you? Visit
               us and find out.
             </p>
-            <div className="art-gallery_buttons"></div>
-            <Navigate to="/location" />
             <button
               onClick={() => {
-                setGoToLocation(true);
+                navigate("/location");
               }}
-              className="art-gallery_button"
-              target="_blank"
-              rel="noreferrer"
+              className="art-gallery_header-button"
             >
               OUR LOCATION &emsp; <img src={ArrowR} alt="right-arrow" />
             </button>

@@ -1,4 +1,4 @@
-.art-gallery_container {
+.art-gallery_header-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -30,7 +30,7 @@
   z-index: 1;
 }
 
-.art-gallery_hero-image {
+.art-gallery_header-hero-image {
   color: black;
   display: flex;
   width: 540px;
@@ -61,7 +61,7 @@
   top: calc(50% - 160px / 2 - 130px);
 }
 
-.art-gallery_button {
+.art-gallery_header-button {
   font-family: "Big Shoulders Display";
   background: linear-gradient(to right, black 75%, #d5966c 25%);
   color: white;
@@ -78,7 +78,7 @@
   z-index: 1;
 }
 
-.art-gallery_button:hover {
+.art-gallery_header-button:hover {
   background: linear-gradient(to right, #d5966c 75%, black 25%);
   cursor: pointer;
 }

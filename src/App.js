@@ -1,17 +1,18 @@
+import React from "react";
 import "./App.css";
 
-import { Header } from "./components";
-import { Gallery } from "./components";
-import { Footer } from "./components";
+import { Homepage } from "./components";
+import { Location } from "./components";
 
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Gallery />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/location" element={<Location />} />
+      </Routes>
     </div>
   );
 }

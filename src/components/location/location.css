@@ -1,0 +1,145 @@
+.art-gallery_location {
+  position: relative;
+  width: 1440px;
+  height: 1392px;
+  background: #ffffff;
+}
+
+.art-gallery_location-map {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+}
+
+.art-gallery_location-button {
+  font-family: "Big Shoulders Display", cursive;
+  background: linear-gradient(to left, #d5966c 75%, black 25%);
+  color: white;
+  position: absolute;
+  width: 264px;
+  height: 72px;
+  left: 156px;
+  top: 0px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+}
+
+.art-gallery_location-button:hover {
+  cursor: pointer;
+  background: linear-gradient(to left, black 75%, #d5966c 25%);
+}
+
+.art-gallery_location-our-location {
+  background: black;
+  color: white;
+  position: absolute;
+  width: 1440px;
+  height: 548px;
+  left: 0px;
+  top: 600px;
+}
+
+.art-gallery_location-our-location h1 {
+  position: absolute;
+  height: 140px;
+  right: 68.47%;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: white;
+  margin: 100px;
+}
+
+.art-gallery_location-our-location h2 {
+  position: absolute;
+  height: 36px;
+  right: 21.35%;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #d5966c;
+  margin: 100px;
+}
+
+.art-gallery_location-address {
+  position: absolute;
+  height: 96px;
+  left: 44.5%;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 200px;
+}
+
+.art-gallery_location-description {
+  position: absolute;
+  height: 128px;
+  left: 44.5%;
+  top: 25%;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 200px;
+}
+
+.art-gallery_location-footer {
+  position: absolute;
+  width: 1440px;
+  height: 250px;
+  top: 1148px;
+  background: #d5966c;
+  color: black;
+}
+
+.art-gallery_location-footer h1 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  padding: 80px;
+}
+
+.art-gallery_location-footer p {
+  height: 84px;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  margin: -180px 400px -108px 400px;
+}
+
+.art-gallery_location-footer-icons {
+  display: flex;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  padding: 80px;
+  gap: 20px;
+  margin: -165px 0px 0px 1100px;
+  filter: brightness(0) invert(0);
+}
+
+.art-gallery_location-footer-icons:hover {
+  cursor: pointer;
+}
+
+.facebook-icon:hover {
+  filter: brightness(0) invert(1);
+}
+
+.instagram-icon:hover {
+  filter: brightness(0) invert(1);
+}
+
+.twitter-icon:hover {
+  filter: brightness(0) invert(1);
+}
