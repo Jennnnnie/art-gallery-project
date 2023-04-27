@@ -144,11 +144,11 @@
   filter: brightness(0) invert(1);
 }
 
+@media (min-width: 375px) and (max-width: 550px) {
+}
+
 @media (min-width: 550px) and (max-width: 768px) {
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-}
-
-@media (min-width: 920px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 920px) {
 }
