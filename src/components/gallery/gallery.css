@@ -96,11 +96,134 @@
   color: white;
 }
 
-@media (min-width: 375px) and (max-width: 550px) {
+@media screen and (max-width: 768px) {
+  .art-gallery_gallery-container {
+    width: 664px;
+    height: 1131px;
+    left: 0%;
+  }
+
+  .art-gallery_gallery-images {
+    height: 299px;
+    left: 39px;
+    top: 856px;
+  }
+
+  .art-gallery_gallery-images h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .art-gallery_gallery-images p {
+    font-size: 15px;
+  }
+
+  .img1 {
+    width: 398px;
+    height: 400px;
+    left: 80%;
+  }
+
+  .img2 {
+    width: 380px;
+    height: 720px;
+    top: 420px;
+  }
+
+  .img3 {
+    width: 280px;
+    height: 313px;
+    left: 115%;
+  }
+
+  .art-gallery_gallery-information {
+    width: 280px;
+    height: 396px;
+    left: 115%;
+    top: 760px;
+  }
+
+  .art-gallery_gallery-information h1 {
+    width: 223px;
+    height: 90px;
+    left: 15%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .art-gallery_gallery-information p {
+    font-size: 15px;
+    left: 15%;
+    top: 50%;
+  }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
-}
+@media screen and (max-width: 375px) {
+  .art-gallery_gallery-container {
+    width: 343px;
+    height: 1605px;
+  }
 
-@media (min-width: 768px) and (max-width: 920px) {
+  .art-gallery_gallery-images {
+    height: 299px;
+    left: 39px;
+    top: 1000px;
+  }
+
+  .art-gallery_gallery-images h1 {
+    font-size: 50px;
+    line-height: 45px;
+    top: 35%;
+    left: -15px;
+  }
+
+  .art-gallery_gallery-images p {
+    font-size: 15px;
+    line-height: 28px;
+    margin-top: 95px;
+    margin-left: -15px;
+  }
+
+  .img1 {
+    width: 343px;
+    height: 320px;
+    left: -30px;
+    top: -70%;
+  }
+
+  .img2 {
+    width: 343px;
+    height: 480px;
+    top: 400px;
+    left: -30px;
+  }
+
+  .img3 {
+    width: 343px;
+    height: 200px;
+    left: -30px;
+    top: 890px;
+  }
+
+  .art-gallery_gallery-information {
+    width: 343px;
+    height: 293px;
+    left: -30px;
+    top: 1100px;
+  }
+
+  .art-gallery_gallery-information h1 {
+    width: 295px;
+    height: 90px;
+    left: 10%;
+    top: 1%;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .art-gallery_gallery-information p {
+    font-size: 16px;
+    left: 15%;
+    top: 25%;
+  }
 }

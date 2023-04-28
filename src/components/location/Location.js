@@ -12,7 +12,11 @@ const Location = () => {
       <div className="art-gallery_location section">
         <div className="art-gallery_location-container">
           <div className="art-gallery_location-map">
-            <img src={map} alt="location-map" />
+            <img
+              src={map}
+              alt="location-map"
+              className="art-gallery_location-map-image"
+            />
             <button
               onClick={() => {
                 navigate("/");

@@ -83,11 +83,94 @@
   cursor: pointer;
 }
 
-@media (min-width: 375px) and (max-width: 550px) {
+@media screen and (max-width: 768px) {
+  .art-gallery_black-background {
+    background: none;
+  }
+
+  .art-gallery_black-background p {
+    position: relative;
+    width: 339px;
+    height: 130px;
+    font-size: 65px;
+    line-height: 55px;
+    left: 125%;
+    top: 10%;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .art-gallery_header-hero-image {
+    color: black;
+    width: 437px;
+    height: 700px;
+    right: 40%;
+  }
+
+  .art-gallery_white-background p {
+    position: absolute;
+    font-size: 15px;
+    line-height: 28px;
+    width: 339px;
+    height: 112px;
+    left: 57%;
+    right: 200px;
+    top: 33%;
+  }
+
+  .art-gallery_header-button {
+    letter-spacing: 3.64px;
+    font-size: 20px;
+    top: 50%;
+    left: 57%;
+  }
 }
 
-@media (min-width: 550px) and (max-width: 768px) {
-}
+@media screen and (max-width: 375px) {
+  .art-gallery_header-container {
+    display: relative;
+  }
 
-@media (min-width: 768px) and (max-width: 920px) {
+  .art-gallery_black-background {
+    background: none;
+  }
+
+  .art-gallery_black-background p {
+    font-size: 60px;
+    left: 8%;
+    top: 25%;
+    line-height: 55px;
+    width: 343px;
+    height: 110px;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .art-gallery_header-hero-image {
+    content: url(../../assets/mobile/image-hero.jpg);
+    width: 375px;
+    height: 240px;
+    left: 0%;
+  }
+
+  .art-gallery_white-background p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 343px;
+    height: 110px;
+    left: 8%;
+    right: 200px;
+    top: 47%;
+  }
+
+  .art-gallery_header-button {
+    letter-spacing: 3.64px;
+    font-size: 20px;
+    width: 260px;
+    height: 72px;
+    left: 8%;
+    top: 68%;
+  }
 }
