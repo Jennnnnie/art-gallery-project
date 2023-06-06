@@ -1,0 +1,47 @@
+footer {
+  background-color: var(--black);
+  padding-block: 3.5rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1.875rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.social,
+.social-2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.social svg:hover {
+  fill: var(--brown);
+}
+
+.social svg:hover {
+  fill: var(--black);
+}
+
+.social svg {
+  display: flex;
+  height: 1.875rem;
+  width: 1.875rem;
+  fill: white;
+  gap: 2.5rem;
+}
+
+.social svg:hover {
+  fill: var(--brown);
+}
+
+.social-2 svg {
+  display: flex;
+  height: 1.875rem;
+  width: 1.875rem;
+  fill: white;
+  gap: 2.5rem;
+}

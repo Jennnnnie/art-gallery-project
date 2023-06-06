@@ -1,327 +1,69 @@
-.art-gallery_location {
-  position: relative;
-  width: 1440px;
-  height: 1392px;
-  background: #ffffff;
+#map {
+  height: 37.5rem;
+  filter: grayscale(100);
 }
 
-.art-gallery_location-map {
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 0px;
+.location .social-2 svg {
+  fill: #000;
 }
 
-.art-gallery_location-button {
-  font-family: "Big Shoulders Display", cursive;
-  background: linear-gradient(to left, black 75%, #d5966c 25%);
+.location .social-2 svg:hover {
+  fill: #fff;
+}
+
+.social-2 svg:hover {
+  fill: var(--black);
+}
+
+.location {
+  background-color: var(--brown);
+}
+
+.bg {
+  background-color: var(--black);
+}
+
+.address p {
   color: white;
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 0px;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 3.63636px;
+  max-width: 33.75rem;
+  font: 200 22px "Outfit", sans-serif;
+  color: var(--white);
 }
 
-.art-gallery_location-button:hover {
-  cursor: pointer;
-  background: linear-gradient(to left, #d5966c 75%, black 25%);
-}
-
-.art-gallery_location-our-location {
-  background: black;
-  color: white;
-  position: absolute;
-  width: 1440px;
-  height: 548px;
-  left: 0px;
-  top: 600px;
-}
-
-.art-gallery_location-our-location h1 {
-  position: absolute;
-  height: 140px;
-  right: 68.47%;
-  font-family: "Big Shoulders Display", cursive;
-  font-weight: 900;
-  font-size: 70px;
-  line-height: 70px;
-  text-transform: uppercase;
-  color: white;
-  margin: 100px;
-}
-
-.art-gallery_location-our-location h2 {
-  position: absolute;
-  height: 36px;
-  right: 21.35%;
-  font-family: "Big Shoulders Display", cursive;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #d5966c;
-  margin: 100px;
-}
-
-.art-gallery_location-address {
-  position: absolute;
-  height: 96px;
-  left: 44.5%;
-  font-family: "Outfit";
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #ffffff;
-  margin: 200px;
-}
-
-.art-gallery_location-description {
-  position: absolute;
-  height: 128px;
-  left: 44.5%;
-  top: 25%;
-  font-family: "Outfit";
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
-  color: #ffffff;
-  margin: 200px;
-}
-
-.art-gallery_location-footer {
-  position: absolute;
-  width: 1440px;
-  height: 250px;
-  top: 1148px;
-  background: #d5966c;
-  color: black;
-}
-
-.art-gallery_location-footer h1 {
-  font-family: "Big Shoulders Display", cursive;
-  text-transform: uppercase;
-  padding: 80px;
-}
-
-.art-gallery_location-footer p {
-  height: 84px;
-  font-family: "Outfit";
-  font-weight: 300;
-  font-size: 18px;
-  margin: -180px 400px -108px 400px;
-}
-
-.art-gallery_location-footer-icons {
+.address {
   display: flex;
-  flex-direction: row;
-  width: 20px;
-  height: 20px;
-  padding: 80px;
-  gap: 20px;
-  margin: -165px 0px 0px 1100px;
-  filter: brightness(0) invert(0);
+  gap: 2.5rem;
+  padding-block: 5.625rem;
+  justify-content: space-between;
 }
 
-.art-gallery_location-footer-icons:hover {
-  cursor: pointer;
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.facebook-icon:hover {
-  filter: brightness(0) invert(1);
+.logo path,
+.logo-2 path {
+  display: flex;
+  padding: 1.875rem;
+  width: 25rem;
+  fill: var(--white);
+  transition: all ease 0.3s;
 }
 
-.instagram-icon:hover {
-  filter: brightness(0) invert(1);
+.logo path:hover {
+  fill: var(--brown);
+  transition: all ease 0.3s;
 }
 
-.twitter-icon:hover {
-  filter: brightness(0) invert(1);
+.logo-2 path:hover {
+  fill: var(--black);
+  transition: all ease 0.3s;
 }
 
-@media screen and (max-width: 768px) {
-  .art-gallery_location {
-    position: absolute;
-    width: 768px;
-  }
-
-  .art-gallery_location-map-image {
-    content: url(../../assets/tablet/image-map.png);
-  }
-
-  .art-gallery_location-button {
-    font-size: 20px;
-    letter-spacing: 3.64px;
-    left: 4%;
-  }
-
-  .art-gallery_location-our-location {
-    position: absolute;
-    width: 768px;
-    height: 436px;
-    top: 600px;
-  }
-
-  .art-gallery_location-our-location h1 {
-    position: absolute;
-    left: -50px;
-    font-size: 55px;
-    line-height: 50px;
-  }
-
-  .art-gallery_location-our-location h2 {
-    position: absolute;
-    font-size: 32px;
-  }
-
-  .art-gallery_location-address {
-    position: absolute;
-    top: -30px;
-    left: 17%;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .art-gallery_location-description {
-    position: absolute;
-    width: 398px;
-    height: 112px;
-    left: 17%;
-    top: 20%;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .art-gallery_location-footer {
-    position: absolute;
-    width: 768px;
-    height: 150px;
-    top: 74%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-
-  .art-gallery_location-footer h1 {
-    font-size: 20px;
-    width: 110px;
-    height: 40px;
-    margin-left: -40px;
-    margin-top: -35px;
-  }
-
-  .art-gallery_location-footer p {
-    width: 281px;
-    height: 104px;
-    font-size: 15px;
-    margin-left: 250px;
-    margin-top: -135px;
-  }
-
-  .art-gallery_location-footer-icons {
-    width: 100px;
-    height: 20px;
-    gap: 20px;
-    margin-left: 550px;
-    margin-top: -185px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .art-gallery_location {
-    position: absolute;
-    width: 375px;
-  }
-
-  .art-gallery_location-map {
-    width: 375px;
-    height: 550px;
-  }
-
-  .art-gallery_location-map-image {
-    content: url(../../assets/mobile/image-map.png);
-  }
-
-  .art-gallery_location-button {
-    font-size: 20px;
-    letter-spacing: 3.64px;
-    left: 0%;
-  }
-
-  .art-gallery_location-our-location {
-    width: 375px;
-    height: 493px;
-    top: 550px;
-  }
-
-  .art-gallery_location-our-location h1 {
-    left: -80px;
-    top: -50px;
-    width: 343px;
-    height: 45px;
-    font-size: 55px;
-    line-height: 50px;
-  }
-
-  .art-gallery_location-our-location h2 {
-    left: -80px;
-    top: 30px;
-    width: 343px;
-    height: 32px;
-    font-size: 32px;
-  }
-
-  .art-gallery_location-address {
-    top: -12px;
-    left: -180px;
-    width: 343px;
-    height: 84px;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .art-gallery_location-description {
-    left: -180px;
-    top: 20%;
-    width: 320px;
-    height: 140px;
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .art-gallery_location-footer {
-    position: absolute;
-    width: 375px;
-    height: 336px;
-    top: 74%;
-    overflow-x: hidden;
-  }
-
-  .art-gallery_location-footer h1 {
-    font-size: 20px;
-    width: 110px;
-    height: 40px;
-    margin-left: -45px;
-    margin-top: -35px;
-  }
-
-  .art-gallery_location-footer p {
-    width: 311px;
-    height: 104px;
-    font-size: 15px;
-    margin-left: 35px;
-    margin-top: -40px;
-  }
-
-  .art-gallery_location-footer-icons {
-    width: 100px;
-    height: 20px;
-    gap: 20px;
-    margin-left: -40px;
-    margin-top: 30px;
-  }
+.logo {
+  object-fit: initial;
+  width: 10rem;
+  transform: scale(1);
 }

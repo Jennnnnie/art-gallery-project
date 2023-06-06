@@ -1,42 +1,11 @@
 import React from "react";
-import { map, ArrowL, Logo } from "./imports";
-import "./location.css";
-import { Link } from "react-router-dom";
+import { Logo } from "./imports";
+import "./footer.css";
 
-const Location = () => {
+const Footer = () => {
   return (
     <>
-      <main className="bg">
-        <img src={map} alt="location-map" id="map" />
-
-        <section className="container">
-          <div className="btn-2">
-            <Link className="btn-link" to="/">
-              Back to Home
-            </Link>
-            <Link className="arrow-right" to="/">
-              <img src={ArrowL} alt="Arrow Button" />
-            </Link>
-          </div>
-          <div className="address location-block">
-            <h1 className="heading-l white">Our location</h1>
-            <div className="address-list">
-              <h2 className="heading-s brown">99 King Street</h2>
-              <div>
-                <p>Newport</p>
-                <p> RI 02840</p>
-                <p> United States of America </p>
-              </div>
-              <p>
-                Our newly opened gallery is located near the Edward King House
-                on 99 King Street, the Modern Art Gallery is free to all
-                visitors and open seven days a week from 8am to 9pm.
-              </p>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer className="location">
+      <footer>
         <div className="container flex">
           <img className="logo" src={Logo} alt="" />
 
@@ -45,7 +14,7 @@ const Location = () => {
             week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
           </p>
 
-          <div className="social-2">
+          <div className="social">
             <a className="facebook" href="#" aria-label="facebook">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,4 +56,4 @@ const Location = () => {
   );
 };
 
-export default Location;
+export default Footer;

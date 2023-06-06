@@ -1,0 +1,106 @@
+header {
+  background: linear-gradient(270deg, #ffffff 50%, hsla(0, 0%, 8%, 1) 50%);
+}
+
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.hero-section {
+  position: relative;
+  display: flex;
+  padding-block: 11.875rem 18.75rem;
+  margin-bottom: 11.25rem;
+  background-repeat: no-repeat;
+  background-image: url(../../../assets/desktop/image-hero.jpg);
+  background-position: 50% 50%;
+  justify-content: space-between;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 73%;
+  width: 5000px;
+  height: 100%;
+  background-color: #000;
+}
+
+.hero-image-mobile {
+  display: none;
+}
+
+.h1-heading {
+  max-width: 28.125rem;
+  mix-blend-mode: difference;
+  color: var(--white);
+}
+
+.hero-paragraph {
+  max-width: 18.75rem;
+}
+
+.btn {
+  display: flex;
+  max-width: 16.25rem;
+  z-index: 1;
+  background-color: var(--black);
+  justify-content: flex-end;
+}
+
+.btn-2 {
+  display: flex;
+  max-width: 16.5rem;
+  z-index: 1;
+  background-color: var(--black);
+  justify-content: flex-end;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  flex-direction: row-reverse;
+}
+
+.btn-link {
+  padding: 1.5rem 2.1875rem;
+  font: 600 1.25rem/1.5rem "Big Shoulders Display", sans-serif;
+  letter-spacing: 0.2rem;
+  color: var(--white);
+  text-transform: uppercase;
+  transition: all ease 0.3s;
+}
+
+.btn:hover,
+.btn-2:hover {
+  background-color: var(--brown);
+  transition: all ease 0.3s;
+}
+
+.arrow-right,
+.arrow-left {
+  padding: 1rem;
+  background-color: var(--brown);
+  transition: all ease 0.3s;
+}
+
+.arrow-right:hover,
+.arrow-left:hover {
+  background-color: var(--black);
+  transition: all ease 0.3s;
+}
+
+.btn-link:hover ~ .arrow-right {
+  background-color: var(--black);
+  transition: all ease 0.3s;
+}
+
+.btn-link:hover {
+  background-color: var(--brown);
+}
+
+.arrow-right img,
+.arrow-left img {
+  padding: 0.625rem;
+}

@@ -1,5 +1,4 @@
-export { default as Header } from "./header/Header";
-export { default as Gallery } from "./gallery/Gallery";
-export { default as Footer } from "./footer/Footer";
-export { default as Homepage } from "./homepage/Homepage";
+export { default as Header } from "./home/header/Header";
+export { default as Gallery } from "./home/gallery/Gallery";
+export { default as Footer } from "./home/footer/Footer";
 export { default as Location } from "./location/Location";
