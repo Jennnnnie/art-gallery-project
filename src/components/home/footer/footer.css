@@ -10,8 +10,7 @@ footer {
   align-items: flex-start;
 }
 
-.social,
-.social-2 {
+.social {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -36,12 +35,4 @@ footer {
 
 .social svg:hover {
   fill: var(--brown);
-}
-
-.social-2 svg {
-  display: flex;
-  height: 1.875rem;
-  width: 1.875rem;
-  fill: white;
-  gap: 2.5rem;
 }
