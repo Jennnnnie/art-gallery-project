@@ -18,7 +18,7 @@ const Location = () => {
               <img src={ArrowL} alt="Arrow Button" />
             </Link>
           </div>
-          <div className="address location-block">
+          <div className="address-location-block">
             <h1 className="heading-l white">Our location</h1>
             <div className="address-list">
               <h2 className="heading-s brown">99 King Street</h2>

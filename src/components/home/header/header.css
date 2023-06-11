@@ -3,7 +3,7 @@ header {
 }
 
 .container {
-  max-width: 69.375rem;
+  width: 50rem;
   margin: 0 auto;
   padding-inline: 1rem;
 }
@@ -103,4 +103,40 @@ header {
 .arrow-right img,
 .arrow-left img {
   padding: 0.625rem;
+}
+
+@media screen and (max-width: 540px) {
+  .hero-section {
+    background: none;
+    margin-left: 5rem;
+  }
+
+  .hero-section::before {
+    display: none;
+  }
+
+  .hero-image-mobile {
+    display: block;
+    position: absolute;
+    margin-left: 5rem;
+  }
+
+  .h1-heading {
+    margin-top: 4rem;
+  }
+
+  .hero-paragraph {
+    position: relative;
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 25rem;
+  }
+
+  .btn {
+    height: 4.8rem;
+  }
+
+  .btn-link {
+    font-size: 1rem;
+  }
 }

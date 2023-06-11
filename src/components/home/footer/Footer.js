@@ -5,9 +5,9 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <footer>
-        <div className="container flex">
-          <img className="logo" src={Logo} alt="" />
+      <footer className="footer-home">
+        <div className="footer_container flex">
+          <img className="logo" src={Logo} alt="art gallery logo" />
 
           <p className="body-xs">
             The Modern Art Gallery is free to all visitors and open seven days a

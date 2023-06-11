@@ -24,14 +24,14 @@
   background-color: var(--black);
 }
 
-.address p {
+.address-location-block p {
   color: white;
   max-width: 33.75rem;
   font: 200 22px "Outfit", sans-serif;
   color: var(--white);
 }
 
-.address {
+.address-location-block {
   display: flex;
   gap: 2.5rem;
   padding-block: 5.625rem;
@@ -67,4 +67,35 @@
   object-fit: initial;
   width: 10rem;
   transform: scale(1);
+}
+
+@media screen and (max-width: 540px) {
+  #map {
+    width: 540px;
+    height: 336px;
+  }
+
+  .address-location-block {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  footer {
+    margin: 0;
+    width: 540px;
+    height: 336px;
+  }
+
+  footer .container {
+    margin-left: 15%;
+  }
+
+  footer .container img {
+    width: 110px;
+  }
+
+  footer .container p {
+    text-align: center;
+  }
 }

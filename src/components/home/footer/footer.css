@@ -45,3 +45,23 @@ footer {
   fill: white;
   gap: 2.5rem;
 }
+
+@media screen and (max-width: 540px) {
+  .footer-home {
+    width: 450px;
+    height: 336px;
+    margin-left: 5%;
+  }
+
+  .footer_container {
+    margin-left: 15%;
+  }
+
+  .footer_container img {
+    width: 110px;
+  }
+
+  .footer_container p {
+    text-align: center;
+  }
+}
